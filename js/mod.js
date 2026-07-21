@@ -12,14 +12,15 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.0.1",
+	name: "This only becomes a >Minor thing< for a >Major Project<...",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
-	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.`
+	<h3>v0.0.1</h3><br>
+		- Started War against AI Drakes.<br>
+		- Void Dragon Population increased after Abyss.<br>
+		- Opened a Dragon Forge in Zone V.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
@@ -58,8 +59,6 @@ function isEndgame() {
 	return player.points.gte(new Decimal("e280000000"))
 }
 
-
-
 // Less important things beyond this point!
 
 // Style for the background, can be a function
@@ -76,3 +75,4 @@ function maxTickLength() {
 // you can cap their current resources with this.
 function fixOldSave(oldVersion){
 }
+
