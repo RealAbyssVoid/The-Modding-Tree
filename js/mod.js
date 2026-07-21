@@ -1,13 +1,13 @@
 let modInfo = {
-	name: "The ??? Tree",
-	author: "nobody",
-	pointsName: "points",
+	name: "The Void Imperium Story Coding Tree",
+	author: "TalkingBeni",
+	pointsName: "Bytes",
 	modFiles: ["layers.js", "tree.js"],
 
-	discordName: "",
+	discordName: "no",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	initialStartPoints: new Decimal (1), // Used for hard resets and new players
+	offlineLimit: 24,  // In hours
 }
 
 // Set your version in num and name
